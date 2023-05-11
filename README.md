@@ -13,7 +13,7 @@ This script allows you to process credit card transactions based on input provid
    ```
    $ mkdir <YourDirectoryName>
    $ cd <YourDirectoryName>
-   $ git clone <repository_url>
+   $ gh repo clone dederico/Braintree
    ```
 
 2. Ensure you have Ruby installed on your system. You can check the Ruby version by running:
