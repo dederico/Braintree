@@ -49,7 +49,7 @@ This script allows you to process credit card transactions based on input provid
 2. Run the script by executing the following command:
 
    ```
-   $ ruby credit_card_processor.rb
+   $ ruby credit_card_processor.rb < input.txt
    ```
 
 3. The script will process the input file and display a summary of the credit card balances.
