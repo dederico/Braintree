@@ -113,7 +113,7 @@ class CreditCardProcessor
 end
 
 # Reading input from STDIN
-input = $stdin.read
+input = ARGF.read
 
 processor = CreditCardProcessor.new
 processor.process_input(input)
