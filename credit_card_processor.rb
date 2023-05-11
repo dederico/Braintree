@@ -113,7 +113,11 @@ class CreditCardProcessor
 end
 
 # Reading input from STDIN
-input = ARGF.read
+input = if ARGV.empty?
+    $stdin.read
+else
+    File.read(ARGV[0])
+end
 
 processor = CreditCardProcessor.new
 processor.process_input(input)
